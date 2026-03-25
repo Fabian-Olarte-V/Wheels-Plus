@@ -1,15 +1,40 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android / Gradle
+.gradle/
+build/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# Local SDK and machine-specific config
 local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/.deployementTargetDropDown.xml.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Generated captures and logs
+captures/
+*.log
+
+# Keystores / signing
+*.jks
+*.keystore
+
+# Firebase / secrets
+app/google-services.json
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
